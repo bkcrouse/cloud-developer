@@ -38,3 +38,11 @@ describe('divide', () => {
 // @TODO try creating a new describe block for the "concat" method
 // it should contain an it block for each it statement in the units.ts @TODO.
 // don't forget to import the method ;)
+describe('concat', () => {
+
+  it('should add -world to hello', () => {
+    const result = 'hello'.concat('-world');
+    expect(result).to.equal('hello-world');
+  });
+
+});
